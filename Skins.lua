@@ -1,12 +1,12 @@
---[[ Vol II: Metal for ButtonFacade v2.4.0 ]]
+--[[ Vol II: Metal for ButtonFacade v2.4.2 ]]
 
 local LibButtonFacade = LibStub("LibButtonFacade",true)
 if not LibButtonFacade then
 	return
 end
 
--- Bronze
-LibButtonFacade:AddSkin("Vol II: Bronze",{
+-- Silver
+LibButtonFacade:AddSkin("Vol II: Silver",{
 
 	-- Skin data start.
 	Backdrop = {
@@ -46,7 +46,7 @@ LibButtonFacade:AddSkin("Vol II: Bronze",{
 	Normal = {
 		Width = 32,
 		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_VoliiMetal\Textures\Bronze]],
+		Texture = [[Interface\AddOns\ButtonFacade_VoliiMetal\Textures\Normal]],
 		Static = true,
 	},
 	Pushed = {
@@ -95,15 +95,72 @@ LibButtonFacade:AddSkin("Vol II: Bronze",{
 
 },true)
 
--- Iron
-LibButtonFacade:AddSkin("Vol II: Iron",{
+-- Adamantite
+LibButtonFacade:AddSkin("Vol II: Adamantite",{
 
 	-- Skin data start.
-	Template = "Vol II: Bronze",
+	Template = "Vol II: Silver",
 	Normal = {
 		Width = 32,
 		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_VoliiMetal\Textures\Iron]],
+		Texture = [[Interface\AddOns\ButtonFacade_VoliiMetal\Textures\Normal]],
+		Red = 0.7,
+		Green = 0.8,
+		Blue = 0.9,
+		Static = true,
+	},
+	-- Skin data end.
+
+},true)
+
+-- Bronze
+LibButtonFacade:AddSkin("Vol II: Bronze",{
+
+	-- Skin data start.
+	Template = "Vol II: Silver",
+	Normal = {
+		Width = 32,
+		Height = 32,
+		Texture = [[Interface\AddOns\ButtonFacade_VoliiMetal\Textures\Normal]],
+		Red = 1,
+		Green = 0.75,
+		Blue = 0,
+		Static = true,
+	},
+	-- Skin data end.
+
+},true)
+
+-- Copper
+LibButtonFacade:AddSkin("Vol II: Copper",{
+
+	-- Skin data start.
+	Template = "Vol II: Silver",
+	Normal = {
+		Width = 32,
+		Height = 32,
+		Texture = [[Interface\AddOns\ButtonFacade_VoliiMetal\Textures\Normal]],
+		Red = 0.75,
+		Green = 0.5,
+		Blue = 0,
+		Static = true,
+	},
+	-- Skin data end.
+
+},true)
+
+-- Fel Iron
+LibButtonFacade:AddSkin("Vol II: Fel Iron",{
+
+	-- Skin data start.
+	Template = "Vol II: Silver",
+	Normal = {
+		Width = 32,
+		Height = 32,
+		Texture = [[Interface\AddOns\ButtonFacade_VoliiMetal\Textures\Normal]],
+		Red = 0.75,
+		Green = 1,
+		Blue = 0.75,
 		Static = true,
 	},
 	-- Skin data end.
@@ -114,26 +171,50 @@ LibButtonFacade:AddSkin("Vol II: Iron",{
 LibButtonFacade:AddSkin("Vol II: Gold",{
 
 	-- Skin data start.
-	Template = "Vol II: Bronze",
+	Template = "Vol II: Silver",
 	Normal = {
 		Width = 32,
 		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_VoliiMetal\Textures\Gold]],
+		Texture = [[Interface\AddOns\ButtonFacade_VoliiMetal\Textures\Normal]],
+		Red = 1,
+		Green = 0.85,
+		Blue = 0,
 		Static = true,
 	},
 	-- Skin data end.
 
 },true)
 
--- Silver
-LibButtonFacade:AddSkin("Vol II: Silver",{
+-- Iron
+LibButtonFacade:AddSkin("Vol II: Iron",{
 
 	-- Skin data start.
-	Template = "Vol II: Bronze",
+	Template = "Vol II: Silver",
 	Normal = {
 		Width = 32,
 		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_VoliiMetal\Textures\Silver]],
+		Texture = [[Interface\AddOns\ButtonFacade_VoliiMetal\Textures\Normal]],
+		Red = 0.5,
+		Green = 0.5,
+		Blue = 0.5,
+		Static = true,
+	},
+	-- Skin data end.
+
+},true)
+
+-- Khorium
+LibButtonFacade:AddSkin("Vol II: Khorium",{
+
+	-- Skin data start.
+	Template = "Vol II: Silver",
+	Normal = {
+		Width = 32,
+		Height = 32,
+		Texture = [[Interface\AddOns\ButtonFacade_VoliiMetal\Textures\Normal]],
+		Red = 1,
+		Green = 0.8,
+		Blue = 0.9,
 		Static = true,
 	},
 	-- Skin data end.
