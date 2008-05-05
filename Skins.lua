@@ -35,13 +35,16 @@ LibButtonFacade:AddSkin("Vol II: Silver",{
 		Height = 26,
 	},
 	AutoCast = {
-		Width = 32,
-		Height = 32,
+		Width = 26,
+		Height = 26,
+		ModelScale = 0.8,
 	},
 	AutoCastable = {
 		Width = 54,
 		Height = 54,
 		Texture = [[Interface\Buttons\UI-AutoCastableOverlay]],
+		OffsetX = 0.5,
+		OffsetY = -0.5,
 	},
 	Normal = {
 		Width = 32,
@@ -78,18 +81,18 @@ LibButtonFacade:AddSkin("Vol II: Silver",{
 		Width = 32,
 		Height = 10,
 		OffsetX = -2,
-		OffsetY = 7,
+		OffsetY = 8,
 	},
 	Count = {
 		Width = 32,
 		Height = 10,
 		OffsetX = -2,
-		OffsetY = -7,
+		OffsetY = -8,
 	},
 	Name = {
 		Width = 32,
 		Height = 10,
-		OffsetY = -7,
+		OffsetY = -8,
 	},
 	-- Skin data end.
 
