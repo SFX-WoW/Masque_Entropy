@@ -1,4 +1,4 @@
---[[ Vol II: Metal for ButtonFacade v2.4.2 ]]
+--[[ Vol II: Metal for ButtonFacade ]]
 
 local LibButtonFacade = LibStub("LibButtonFacade",true)
 if not LibButtonFacade then
@@ -81,18 +81,18 @@ LibButtonFacade:AddSkin("Vol II: Silver",{
 		Width = 32,
 		Height = 10,
 		OffsetX = -2,
-		OffsetY = 8,
+		OffsetY = 4,
 	},
 	Count = {
 		Width = 32,
 		Height = 10,
 		OffsetX = -2,
-		OffsetY = -8,
+		OffsetY = -6,
 	},
 	Name = {
 		Width = 32,
 		Height = 10,
-		OffsetY = -8,
+		OffsetY = -6,
 	},
 	-- Skin data end.
 
