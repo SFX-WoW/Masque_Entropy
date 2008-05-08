@@ -1,8 +1,8 @@
 ## Interface: 20400
 
-## Title: ButtonFacade: |cffff8000Vol II: Metal|r
-## Notes: Vol II: Metal skins for Button Facade.
-## Version: 2.4.4
+## Title: ButtonFacade: |cffff8000Entropy|r
+## Notes: Entropy skins for Button Facade.
+## Version: 2.4.5
 
 ## Author: StormFX
 ## X-eMail: stormfx@gmail.com

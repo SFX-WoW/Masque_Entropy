@@ -1,4 +1,4 @@
---[[ Vol II: Metal for ButtonFacade ]]
+--[[ Entropy for ButtonFacade ]]
 
 local LibButtonFacade = LibStub("LibButtonFacade",true)
 if not LibButtonFacade then
@@ -6,13 +6,13 @@ if not LibButtonFacade then
 end
 
 -- Silver
-LibButtonFacade:AddSkin("Vol II: Silver",{
+LibButtonFacade:AddSkin("Entropy: Silver",{
 
 	-- Skin data start.
 	Backdrop = {
 		Width = 32,
 		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_VoliiMetal\Textures\Backdrop]],
+		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Backdrop]],
 	},
 	Icon = {
 		Width = 26,
@@ -22,13 +22,13 @@ LibButtonFacade:AddSkin("Vol II: Silver",{
 	Border = {
 		Width = 32,
 		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_VoliiMetal\Textures\Equip]],
+		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Equip]],
 		BlendMode = "ADD",
 	},
 	Flash = {
 		Width = 32,
 		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_VoliiMetal\Textures\Flash]],
+		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Flash]],
 	},
 	Cooldown = {
 		Width = 26,
@@ -49,13 +49,13 @@ LibButtonFacade:AddSkin("Vol II: Silver",{
 	Normal = {
 		Width = 32,
 		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_VoliiMetal\Textures\Normal]],
+		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Normal]],
 		Static = true,
 	},
 	Pushed = {
 		Width = 32,
 		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_VoliiMetal\Textures\Pushed]],
+		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Pushed]],
 	},
 	Disabled = {
 		Hide = true,
@@ -63,18 +63,18 @@ LibButtonFacade:AddSkin("Vol II: Silver",{
 	Checked = {
 		Width = 32,
 		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_VoliiMetal\Textures\Checked]],
+		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Checked]],
 		BlendMode = "ADD",
 	},
 	Gloss = {
 		Width = 32,
 		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_VoliiMetal\Textures\Gloss]],
+		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Gloss]],
 	},
 	Highlight = {
 		Width = 32,
 		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_VoliiMetal\Textures\Highlight]],
+		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Highlight]],
 		BlendMode = "ADD",
 	},
 	HotKey = {
@@ -99,14 +99,14 @@ LibButtonFacade:AddSkin("Vol II: Silver",{
 },true)
 
 -- Adamantite
-LibButtonFacade:AddSkin("Vol II: Adamantite",{
+LibButtonFacade:AddSkin("Entropy: Adamantite",{
 
 	-- Skin data start.
-	Template = "Vol II: Silver",
+	Template = "Entropy: Silver",
 	Normal = {
 		Width = 32,
 		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_VoliiMetal\Textures\Normal]],
+		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Normal]],
 		Red = 0.7,
 		Green = 0.8,
 		Blue = 0.9,
@@ -117,14 +117,14 @@ LibButtonFacade:AddSkin("Vol II: Adamantite",{
 },true)
 
 -- Bronze
-LibButtonFacade:AddSkin("Vol II: Bronze",{
+LibButtonFacade:AddSkin("Entropy: Bronze",{
 
 	-- Skin data start.
-	Template = "Vol II: Silver",
+	Template = "Entropy: Silver",
 	Normal = {
 		Width = 32,
 		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_VoliiMetal\Textures\Normal]],
+		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Normal]],
 		Red = 1,
 		Green = 0.75,
 		Blue = 0,
@@ -135,14 +135,14 @@ LibButtonFacade:AddSkin("Vol II: Bronze",{
 },true)
 
 -- Copper
-LibButtonFacade:AddSkin("Vol II: Copper",{
+LibButtonFacade:AddSkin("Entropy: Copper",{
 
 	-- Skin data start.
-	Template = "Vol II: Silver",
+	Template = "Entropy: Silver",
 	Normal = {
 		Width = 32,
 		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_VoliiMetal\Textures\Normal]],
+		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Normal]],
 		Red = 0.75,
 		Green = 0.5,
 		Blue = 0,
@@ -153,14 +153,14 @@ LibButtonFacade:AddSkin("Vol II: Copper",{
 },true)
 
 -- Fel Iron
-LibButtonFacade:AddSkin("Vol II: Fel Iron",{
+LibButtonFacade:AddSkin("Entropy: Fel Iron",{
 
 	-- Skin data start.
-	Template = "Vol II: Silver",
+	Template = "Entropy: Silver",
 	Normal = {
 		Width = 32,
 		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_VoliiMetal\Textures\Normal]],
+		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Normal]],
 		Red = 0.75,
 		Green = 1,
 		Blue = 0.75,
@@ -171,14 +171,14 @@ LibButtonFacade:AddSkin("Vol II: Fel Iron",{
 },true)
 
 -- Gold
-LibButtonFacade:AddSkin("Vol II: Gold",{
+LibButtonFacade:AddSkin("Entropy: Gold",{
 
 	-- Skin data start.
-	Template = "Vol II: Silver",
+	Template = "Entropy: Silver",
 	Normal = {
 		Width = 32,
 		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_VoliiMetal\Textures\Normal]],
+		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Normal]],
 		Red = 1,
 		Green = 0.85,
 		Blue = 0,
@@ -189,14 +189,14 @@ LibButtonFacade:AddSkin("Vol II: Gold",{
 },true)
 
 -- Iron
-LibButtonFacade:AddSkin("Vol II: Iron",{
+LibButtonFacade:AddSkin("Entropy: Iron",{
 
 	-- Skin data start.
-	Template = "Vol II: Silver",
+	Template = "Entropy: Silver",
 	Normal = {
 		Width = 32,
 		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_VoliiMetal\Textures\Normal]],
+		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Normal]],
 		Red = 0.5,
 		Green = 0.5,
 		Blue = 0.5,
@@ -207,14 +207,14 @@ LibButtonFacade:AddSkin("Vol II: Iron",{
 },true)
 
 -- Khorium
-LibButtonFacade:AddSkin("Vol II: Khorium",{
+LibButtonFacade:AddSkin("Entropy: Khorium",{
 
 	-- Skin data start.
-	Template = "Vol II: Silver",
+	Template = "Entropy: Silver",
 	Normal = {
 		Width = 32,
 		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_VoliiMetal\Textures\Normal]],
+		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Normal]],
 		Red = 1,
 		Green = 0.8,
 		Blue = 0.9,
