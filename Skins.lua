@@ -12,6 +12,7 @@ LibButtonFacade:AddSkin("Entropy: Silver",{
 	Backdrop = {
 		Width = 32,
 		Height = 32,
+		Color = {1, 1, 1, 1},
 		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Backdrop]],
 	},
 	Icon = {
@@ -19,16 +20,11 @@ LibButtonFacade:AddSkin("Entropy: Silver",{
 		Height = 26,
 		TexCoords = {0.07,0.93,0.07,0.93},
 	},
-	Border = {
-		Width = 32,
-		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Equip]],
-		BlendMode = "ADD",
-	},
 	Flash = {
 		Width = 32,
 		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Flash]],
+		Color = {1, 0, 0, 1},
+		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Overlay]],
 	},
 	Cooldown = {
 		Width = 26,
@@ -39,23 +35,25 @@ LibButtonFacade:AddSkin("Entropy: Silver",{
 		Height = 26,
 		ModelScale = 0.8,
 	},
-	AutoCastable = {
-		Width = 54,
-		Height = 54,
-		Texture = [[Interface\Buttons\UI-AutoCastableOverlay]],
-		OffsetX = 0.5,
-		OffsetY = -0.5,
-	},
 	Normal = {
 		Width = 32,
 		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Normal]],
 		Static = true,
+		Color = {1, 1, 1, 1},
+		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Normal]],
 	},
 	Pushed = {
 		Width = 32,
 		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Pushed]],
+		Color = {0, 0, 0, 1},
+		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Overlay]],
+	},
+	Border = {
+		Width = 32,
+		Height = 32,
+		BlendMode = "ADD",
+		Color = {0, 1, 0, 1},
+		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Border]],
 	},
 	Disabled = {
 		Hide = true,
@@ -63,19 +61,28 @@ LibButtonFacade:AddSkin("Entropy: Silver",{
 	Checked = {
 		Width = 32,
 		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Checked]],
 		BlendMode = "ADD",
+		Color = {0, 0.75, 1, 1},
+		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Border]],
+	},
+	AutoCastable = {
+		Width = 54,
+		Height = 54,
+		OffsetX = 0.5,
+		OffsetY = -0.5,
+		Texture = [[Interface\Buttons\UI-AutoCastableOverlay]],
+	},
+	Highlight = {
+		Width = 32,
+		Height = 32,
+		BlendMode = "ADD",
+		Color = {1, 1, 1, 1},
+		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Highlight]],
 	},
 	Gloss = {
 		Width = 32,
 		Height = 32,
 		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Gloss]],
-	},
-	Highlight = {
-		Width = 32,
-		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Highlight]],
-		BlendMode = "ADD",
 	},
 	HotKey = {
 		Width = 32,
@@ -106,11 +113,9 @@ LibButtonFacade:AddSkin("Entropy: Adamantite",{
 	Normal = {
 		Width = 32,
 		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Normal]],
-		Red = 0.7,
-		Green = 0.8,
-		Blue = 0.9,
 		Static = true,
+		Color = {0.7, 0.8, 0.9, 1},
+		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Normal]],
 	},
 	-- Skin data end.
 
@@ -124,11 +129,9 @@ LibButtonFacade:AddSkin("Entropy: Bronze",{
 	Normal = {
 		Width = 32,
 		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Normal]],
-		Red = 1,
-		Green = 0.75,
-		Blue = 0,
 		Static = true,
+		Color = {1, 0.75, 0, 1},
+		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Normal]],
 	},
 	-- Skin data end.
 
@@ -142,11 +145,9 @@ LibButtonFacade:AddSkin("Entropy: Copper",{
 	Normal = {
 		Width = 32,
 		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Normal]],
-		Red = 0.75,
-		Green = 0.5,
-		Blue = 0,
 		Static = true,
+		Color = {0.75, 0.5, 0, 1},
+		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Normal]],
 	},
 	-- Skin data end.
 
@@ -160,11 +161,9 @@ LibButtonFacade:AddSkin("Entropy: Fel Iron",{
 	Normal = {
 		Width = 32,
 		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Normal]],
-		Red = 0.75,
-		Green = 1,
-		Blue = 0.75,
 		Static = true,
+		Color = {0.75, 1, 0.75, 1},
+		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Normal]],
 	},
 	-- Skin data end.
 
@@ -178,11 +177,9 @@ LibButtonFacade:AddSkin("Entropy: Gold",{
 	Normal = {
 		Width = 32,
 		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Normal]],
-		Red = 1,
-		Green = 0.85,
-		Blue = 0,
 		Static = true,
+		Color = {1, 0.85, 0, 1},
+		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Normal]],
 	},
 	-- Skin data end.
 
@@ -196,11 +193,9 @@ LibButtonFacade:AddSkin("Entropy: Iron",{
 	Normal = {
 		Width = 32,
 		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Normal]],
-		Red = 0.5,
-		Green = 0.5,
-		Blue = 0.5,
 		Static = true,
+		Color = {0.5, 0.5, 0.5, 1},
+		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Normal]],
 	},
 	-- Skin data end.
 
@@ -214,11 +209,9 @@ LibButtonFacade:AddSkin("Entropy: Khorium",{
 	Normal = {
 		Width = 32,
 		Height = 32,
-		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Normal]],
-		Red = 1,
-		Green = 0.8,
-		Blue = 0.9,
 		Static = true,
+		Color = {1, 0.8, 0.9, 1},
+		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Normal]],
 	},
 	-- Skin data end.
 
