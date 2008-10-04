@@ -1,1 +1,4 @@
 package-as: ButtonFacade_Entropy
+
+required-dependencies:
+	- buttonfacade

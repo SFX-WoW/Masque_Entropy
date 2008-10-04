@@ -2,14 +2,13 @@
 
 ## Title: ButtonFacade: |cffff8000Entropy|r
 ## Notes: Entropy skins for Button Facade.
-## Version: 2.4.2
+## Version: 2.4.3
 
 ## Author: StormFX
 ## X-eMail: stormfx@gmail.com
 ## X-Website: http://www.wowace.com
-## X-AceForum: 13279
 ## X-RelSite-WoWI: 8873
-## X-Credits: JJ Sheets for Button Facade. Zeal for Vol.
+## X-Credits: JJSheets, Zeal
 
 ## X-Category: Action Bars
 ## OptionalDeps: LibButtonFacade, ButtonFacade

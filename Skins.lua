@@ -1,4 +1,4 @@
---[[ Entropy for ButtonFacade ]]
+--[[ Entropy skin for ButtonFacade ]]
 
 local LibButtonFacade = LibStub("LibButtonFacade",true)
 if not LibButtonFacade then
