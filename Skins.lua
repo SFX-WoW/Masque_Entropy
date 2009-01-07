@@ -1,12 +1,12 @@
---[[ Entropy skin for ButtonFacade ]]
+--[[ Entropy @project-version@ ]]
 
-local LibButtonFacade = LibStub("LibButtonFacade",true)
-if not LibButtonFacade then
+local LBF = LibStub("LibButtonFacade", true)
+if not LBF then
 	return
 end
 
 -- Silver
-LibButtonFacade:AddSkin("Entropy: Silver",{
+LBF:AddSkin("Entropy: Silver", {
 
 	-- Skin data start.
 	Backdrop = {
@@ -22,7 +22,7 @@ LibButtonFacade:AddSkin("Entropy: Silver",{
 	Flash = {
 		Width = 32,
 		Height = 32,
-		Color = {1, 0, 0, 1},
+		Color = {1, 0, 0, 0.5},
 		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Overlay]],
 	},
 	Cooldown = {
@@ -34,7 +34,7 @@ LibButtonFacade:AddSkin("Entropy: Silver",{
 		Height = 26,
 		OffsetX = 1,
 		OffsetY = -1,
-		AboveNormal = true;
+		AboveNormal = true,
 	},
 	Normal = {
 		Width = 32,
@@ -46,14 +46,13 @@ LibButtonFacade:AddSkin("Entropy: Silver",{
 	Pushed = {
 		Width = 32,
 		Height = 32,
-		Color = {0, 0, 0, 1},
+		Color = {0, 0, 0, 0.5},
 		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Overlay]],
 	},
 	Border = {
 		Width = 32,
 		Height = 32,
 		BlendMode = "ADD",
-		Color = {0, 1, 0, 1},
 		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Border]],
 	},
 	Disabled = {
@@ -63,7 +62,7 @@ LibButtonFacade:AddSkin("Entropy: Silver",{
 		Width = 32,
 		Height = 32,
 		BlendMode = "ADD",
-		Color = {0, 0.75, 1, 1},
+		Color = {0, 0.75, 1, 0.5},
 		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Border]],
 	},
 	AutoCastable = {
@@ -77,7 +76,7 @@ LibButtonFacade:AddSkin("Entropy: Silver",{
 		Width = 32,
 		Height = 32,
 		BlendMode = "ADD",
-		Color = {1, 1, 1, 1},
+		Color = {1, 1, 1, 0.5},
 		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Highlight]],
 	},
 	Gloss = {
@@ -104,10 +103,10 @@ LibButtonFacade:AddSkin("Entropy: Silver",{
 	},
 	-- Skin data end.
 
-},true)
+}, true)
 
 -- Adamantite
-LibButtonFacade:AddSkin("Entropy: Adamantite",{
+LBF:AddSkin("Entropy: Adamantite", {
 
 	-- Skin data start.
 	Template = "Entropy: Silver",
@@ -120,10 +119,10 @@ LibButtonFacade:AddSkin("Entropy: Adamantite",{
 	},
 	-- Skin data end.
 
-},true)
+}, true)
 
 -- Bronze
-LibButtonFacade:AddSkin("Entropy: Bronze",{
+LBF:AddSkin("Entropy: Bronze", {
 
 	-- Skin data start.
 	Template = "Entropy: Silver",
@@ -136,10 +135,10 @@ LibButtonFacade:AddSkin("Entropy: Bronze",{
 	},
 	-- Skin data end.
 
-},true)
+}, true)
 
 -- Copper
-LibButtonFacade:AddSkin("Entropy: Copper",{
+LBF:AddSkin("Entropy: Copper", {
 
 	-- Skin data start.
 	Template = "Entropy: Silver",
@@ -152,10 +151,10 @@ LibButtonFacade:AddSkin("Entropy: Copper",{
 	},
 	-- Skin data end.
 
-},true)
+}, true)
 
 -- Fel Iron
-LibButtonFacade:AddSkin("Entropy: Fel Iron",{
+LBF:AddSkin("Entropy: Fel Iron", {
 
 	-- Skin data start.
 	Template = "Entropy: Silver",
@@ -168,10 +167,10 @@ LibButtonFacade:AddSkin("Entropy: Fel Iron",{
 	},
 	-- Skin data end.
 
-},true)
+}, true)
 
 -- Gold
-LibButtonFacade:AddSkin("Entropy: Gold",{
+LBF:AddSkin("Entropy: Gold", {
 
 	-- Skin data start.
 	Template = "Entropy: Silver",
@@ -184,10 +183,10 @@ LibButtonFacade:AddSkin("Entropy: Gold",{
 	},
 	-- Skin data end.
 
-},true)
+}, true)
 
 -- Iron
-LibButtonFacade:AddSkin("Entropy: Iron",{
+LBF:AddSkin("Entropy: Iron", {
 
 	-- Skin data start.
 	Template = "Entropy: Silver",
@@ -200,10 +199,10 @@ LibButtonFacade:AddSkin("Entropy: Iron",{
 	},
 	-- Skin data end.
 
-},true)
+}, true)
 
 -- Khorium
-LibButtonFacade:AddSkin("Entropy: Khorium",{
+LBF:AddSkin("Entropy: Khorium", {
 
 	-- Skin data start.
 	Template = "Entropy: Silver",
@@ -216,4 +215,4 @@ LibButtonFacade:AddSkin("Entropy: Khorium",{
 	},
 	-- Skin data end.
 
-},true)
+}, true)
