@@ -1,4 +1,6 @@
 package-as: ButtonFacade_Entropy
 
 required-dependencies:
-	- buttonfacade
+   - buttonfacade
+
+license-output: License.txt
