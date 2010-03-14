@@ -53,6 +53,7 @@ LBF:AddSkin("Entropy: Silver", {
 		Width = 32,
 		Height = 32,
 		BlendMode = "ADD",
+		Color = {0, 1, 0, 0.3},
 		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Border]],
 	},
 	Disabled = {
