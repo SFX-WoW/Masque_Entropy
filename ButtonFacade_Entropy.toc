@@ -1,6 +1,6 @@
-## Interface: 30300
+## Interface: 40000
 ## Title: ButtonFacade: |cffff8000Entropy|r
-## Version: 3.3.@project-revision@
+## Version: 4.0.@project-revision@
 ## Notes: Entropy skins for ButtonFacade.
 ## Notes-deDE: Entropy Skins für ButtonFacade.
 ## Notes-esMX: Entropy texturas para ButtonFacade.

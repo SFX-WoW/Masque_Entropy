@@ -8,18 +8,11 @@ LBF:AddSkin("Entropy: Silver", {
 	Backdrop = {
 		Width = 32,
 		Height = 32,
-		Color = {1, 1, 1, 1},
 		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Backdrop]],
 	},
 	Icon = {
 		Width = 28,
 		Height = 28,
-	},
-	Pushed = {
-		Width = 32,
-		Height = 32,
-		Color = {0, 0, 0, 0.5},
-		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Overlay]],
 	},
 	Flash = {
 		Width = 32,
@@ -31,11 +24,16 @@ LBF:AddSkin("Entropy: Silver", {
 		Width = 28,
 		Height = 28,
 	},
+	Pushed = {
+		Width = 32,
+		Height = 32,
+		Color = {0, 0, 0, 0.5},
+		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Overlay]],
+	},
 	Normal = {
 		Width = 32,
 		Height = 32,
 		Static = true,
-		Color = {1, 1, 1, 1},
 		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Normal]],
 	},
 	Disabled = {
@@ -54,18 +52,11 @@ LBF:AddSkin("Entropy: Silver", {
 		BlendMode = "ADD",
 		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Border]],
 	},
-	Highlight = {
+	Gloss = {
 		Width = 32,
 		Height = 32,
-		BlendMode = "ADD",
 		Color = {1, 1, 1, 0.5},
-		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Highlight]],
-	},
-	AutoCast = {
-		Width = 26,
-		Height = 26,
-		OffsetX = 1,
-		OffsetY = -1,
+		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Gloss]],
 	},
 	AutoCastable = {
 		Width = 54,
@@ -74,17 +65,17 @@ LBF:AddSkin("Entropy: Silver", {
 		OffsetY = -0.5,
 		Texture = [[Interface\Buttons\UI-AutoCastableOverlay]],
 	},
-	Gloss = {
+	Highlight = {
 		Width = 32,
 		Height = 32,
+		BlendMode = "ADD",
 		Color = {1, 1, 1, 0.5},
-		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Gloss]],
+		Texture = [[Interface\AddOns\ButtonFacade_Entropy\Textures\Highlight]],
 	},
-	HotKey = {
+	Name = {
 		Width = 32,
 		Height = 10,
-		OffsetX = 2,
-		OffsetY = 12,
+		OffsetY = -6,
 	},
 	Count = {
 		Width = 32,
@@ -92,10 +83,17 @@ LBF:AddSkin("Entropy: Silver", {
 		OffsetX = -2,
 		OffsetY = -6,
 	},
-	Name = {
+	HotKey = {
 		Width = 32,
 		Height = 10,
-		OffsetY = -6,
+		OffsetX = -2,
+		OffsetY = 6,
+	},
+	AutoCast = {
+		Width = 26,
+		Height = 26,
+		OffsetX = 1,
+		OffsetY = -1,
 	},
 }, true)
 
