@@ -1,4 +1,4 @@
-=== v4.2.69 ===
+=== v4.2.71 ===
 
 * Renamed to **Masque_Entropy**.
 * Updated to Masque's API.
