@@ -15,9 +15,9 @@ if not MSQ then return end
 -- Silver
 MSQ:AddSkin("Entropy: Silver", {
 	Author = "StormFX",
-	Version = "6.0.0",
+	Version = "6.1.0",
 	Shape = "Square",
-	Masque_Version = 60000,
+	Masque_Version = 60100,
 	Backdrop = {
 		Width = 32,
 		Height = 32,
