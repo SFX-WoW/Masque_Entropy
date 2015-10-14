@@ -1,6 +1,6 @@
 ## Interface: 60200
 ## Title: Masque: |cffff8000Entropy|r
-## Version: 6.2.0
+## Version: @project-version@
 ## Author: StormFX
 ## Notes: Entropy skins for Masque.
 ## Notes-zhTW: Masque的Entropy皮膚。
