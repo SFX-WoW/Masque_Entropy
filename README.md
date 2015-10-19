@@ -38,8 +38,8 @@ Install the package through your preferred add-on manager. You can also install 
 
 ### Credits ###
 
-Special thanks to [Zeal](http://www.wowace.com/profiles/Zeal) for the original *Vol* skin.
+Special thanks to [Zeal](http://www.wowace.com/profiles/zeal) for the original *Vol* skin.
 
 ### Feedback ###
 
-For bug reports and suggestions, please use the [ticket system](https://github.com/StormFX/Masque_Entropy/issues) on GitHub.
+For bug reports and suggestions, please use the [ticket system](https://github.com/stormfx/masque_entropy/issues) on GitHub.
