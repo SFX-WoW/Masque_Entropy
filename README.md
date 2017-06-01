@@ -1,12 +1,12 @@
 ### About ###
 
-_Entropy_ is an add-on for [World of Warcraft](https://worldofwarcraft.com "World of Warcraft Website") that adds a set of skins for [Masque][]. This set is based on [Apathy](https://www.wowace.com/projects/masque-apathy) and includes a number of metallic skins.
+_Entropy_ is an add-on for [World of Warcraft](https://worldofwarcraft.com "World of Warcraft Website") that adds a set of skins for [Masque][]. This set is based on [Apathy](https://mods.curse.com/addons/wow/masque-apathy) and includes a number of metallic skins.
 
 _**Note:** You must have [Masque][] installed to use this add-on._
 
 ### Skins ###
 
-This skin set contains the following skins:
+This set contains the following skins:
 
 - Adamantite
 - Bronze
@@ -33,10 +33,10 @@ Install the package through your preferred add-on manager. You can also install 
 
 ### Links ###
 
+- [Download Masque][Masque]
 - [Get More Skins](https://github.com/stormfx/masque/wiki/skin-list "Masque Skin List")
-- [Masque Project Page][Masque]
-- [Masque Facebook Page](https://www.facebook.com/masqueui "Masque on Facebook")
 - [Masque Wiki](https://github.com/stormfx/masque/wiki "Masque Wiki")
+- [Masque Facebook Page](https://www.facebook.com/masqueui "Masque on Facebook")
 
 ### Credits ###
 
@@ -46,4 +46,4 @@ Install the package through your preferred add-on manager. You can also install 
 
 For bug reports and suggestions, please use the [ticket system](https://github.com/stormfx/masque_entropy/issues) on GitHub.
 
-[Masque]: https://www.wowace.com/projects/masque (Masque Project Page)
+[Masque]: https://mods.curse.com/addons/wow/masque ("Download Masque")
