@@ -38,6 +38,7 @@ MSQ:AddSkin("Entropy - Silver", {
 	Cooldown = {
 		Width = 28,
 		Height = 28,
+		Color = {0, 0, 0, 0.7},
 	},
 	ChargeCooldown = {
 		Width = 28,
@@ -60,14 +61,15 @@ MSQ:AddSkin("Entropy - Silver", {
 	Checked = {
 		Width = 32,
 		Height = 32,
-		BlendMode = "ADD",
-		Color = {0, 0.8, 1, 0.5},
+		BlendMode = "BLEND",
+		Color = {0, 0.7, 0.9, 0.7},
 		Texture = [[Interface\AddOns\Masque_Entropy\Textures\Border]],
 	},
 	Border = {
 		Width = 32,
 		Height = 32,
-		BlendMode = "ADD",
+		BlendMode = "BLEND",
+		Color = {0, 1, 0, 0.5},
 		Texture = [[Interface\AddOns\Masque_Entropy\Textures\Border]],
 	},
 	Gloss = {
