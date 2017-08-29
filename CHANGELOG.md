@@ -1,9 +1,13 @@
+### 7.3.0 ###
+
+- ToC to 70300.
+
 ### 7.2.1 ###
 
-- Add support for Equipped and Cooldown colors.
-- Update Masque_Version.
-- Update ReadMe.
-- Update locales.
+- Added support for Equipped and Cooldown colors.
+- Updated Masque_Version.
+- Updated ReadMe.
+- Updated Locales.
 
 ### 7.2.0 ###
 
@@ -16,121 +20,104 @@
 ### 7.0.0 ###
 
 - ToC to 70000.
-- Update version.
-- Rename "Autocast" to "Shine".
-- Adjust text positions.
+- Updated version.
+- Renamed Autocast to Shine.
+- Adjusted text positions.
 
 ### 6.2.2 ###
 
-- Fix links in Readme.
-- Update Changelog.
+- Fixed links in Readme.
 
 ### 6.2.1 ###
 
 - SVN to Git conversion.
-- Add ChargeCooldown.
-- Update Changelog, License and Readme.
-- Update .pkgmeta.
+- Added ChargeCooldown.
+- Updated License and Readme.
+- Updated .pkgmeta.
 
 ### 6.2.0 ###
 
 - ToC to 60200.
-- Update version.
 
 ### 6.1.0 ###
 
 - ToC to 60100.
-- Update version.
 
 ### 6.0.0 ###
 
 - ToC to 60000.
-- Update version.
 
 ### 5.4.83 ###
 
 - ToC to 50400.
-- Update version.
 
 ### 5.3.81 ###
 
 - ToC to 50300.
-- Update version.
 
 ### 5.2.79 ###
 
 - ToC to 50200.
-- Update version.
 
 ### 5.1.77 ###
 
 - ToC to 50100.
-- Update version.
 
 ### 5.0.75 ###
 
 - ToC to 50001.
-- Update version.
 
 ### 4.3.73 ###
 
 - ToC to 40300.
-- Update version.
 
 ### 4.2.71 ###
 
 - Localization update.
 - Renamed to Masque_Entropy.
 - ToC to 40200.
-- Update version.
-- Update to Masque's API.
+- Updated to Masque's API.
 
 ### 4.0.62 ###
 
-- Remove Border color.
+- Removed Border color.
 - ToC to 40000.
-- Update version.
 
 ### 3.3.57 ###
 
 - Localization update.
 - ToC to 30300.
-- Update version.
-- Update License and Changelog.
+- Updated License.
 
 ### 3.2.55 ###
 
 - ToC to 30200.
-- Update version.
 
 ### 3.1.49 ###
 
-- Update License.
-- Add X-WoWI-ID.
-- Update X-Category.
+- Added X-WoWI-ID.
+- Updated X-Category.
+- Updated License.
 
 ### 3.1.46 ###
 
 - ToC to 30100.
-- Update version.
 
 ### 3.0.43 ###
 
-- Fixe a typo.
-- Adjust version.
-- Fix debuff coloring.
+- Fixed a typo.
+- Adjusted version.
+- Fixed debuff coloring.
 - Texture tweaks.
 
 ### 3.0.3.2 ###
 
-- Add License.txt.
-- Update version.
+- Added License.txt.
 
 ### 3.0.2.2 ###
 
-- Adjust Autocast.
+- Adjusted Autocast.
 
 ### 3.0.2 ###
 
 - ToC to 30100.
-- Update version.
