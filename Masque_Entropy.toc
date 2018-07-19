@@ -1,6 +1,6 @@
-## Interface: 70300
+## Interface: 80000
 ## Title: Masque: |cffff8000Entropy|r
-## Version: 7.3.0
+## Version: 8.0.0
 ## Author: StormFX
 ## Dependencies: Masque
 ## Notes: Entropy skins for Masque.
@@ -8,6 +8,7 @@
 ## Notes-esES: Skin Entropy para Masque.
 ## Notes-esMX: Skin Entropy para Masque.
 ## Notes-itIT: Skin Entropy per Masque.
+## Notes-ruRU: Скин Entropy для Masque.
 ## Notes-zhTW: Masque的Entropy皮膚。
 ## X-Website: https://www.wowace.com/projects/masque_entropy
 ## X-Category: Interface Enhancements
