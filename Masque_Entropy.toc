@@ -15,4 +15,5 @@
 ## X-Credits: Zeal
 ## X-WoWI-ID: 8873
 
-Entropy.lua
+# Skins
+Skins.lua
