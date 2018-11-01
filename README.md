@@ -6,7 +6,7 @@ _**Note:** You must have [Masque][] installed to use these skins._
 
 ## Skins
 
-This set ia based on [Apathy](https://www.wowace.com/projects/masque-apathy) and includes a number of metallic skins in the following ore colors:
+This set is based on [Apathy](https://www.wowace.com/projects/masque-apathy) and includes a number of metallic skins in the following ore colors:
 
 - **Adamantite**
 - **Bronze**
