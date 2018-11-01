@@ -1,4 +1,4 @@
-### About
+## About
 
 _Entropy_ is an add-on for [World of Warcraft](https://worldofwarcraft.com "World of Warcraft") that adds a set of skins for [Masque][].
 
