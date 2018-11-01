@@ -28,7 +28,7 @@ Core.Locale = setmetatable(L, {
 local Locale = GetLocale()
 
 if Locale == "enGB" or Locale == "enUS" then
-	--L["A metallic version of Apathy with the color of %t ore."]
+	--L["A metallic version of Apathy in the color of %t ore."]
 	return
 --elseif Locale == "deDE" then
 --elseif Locale == "esES" or Locale == "esMX" then

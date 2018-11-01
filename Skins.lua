@@ -33,7 +33,7 @@ local Websites = {
 }
 
 -- Description
-local SKIN_DESC = L["A metallic version of Apathy with the color of %t ore."]
+local SKIN_DESC = L["A metallic version of Apathy in the color of %t ore."]
 
 ----------------------------------------
 -- Entropy - Silver
