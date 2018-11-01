@@ -1,49 +1,54 @@
-### About ###
+### About
 
-_Entropy_ is an add-on for [World of Warcraft](https://worldofwarcraft.com "World of Warcraft Website") that adds a set of skins for [Masque][]. This set is based on [Apathy](https://mods.curse.com/addons/wow/masque-apathy) and includes a number of metallic skins.
+_Entropy_ is an add-on for [World of Warcraft](https://worldofwarcraft.com "World of Warcraft") that adds a set of skins for [Masque][].
 
-_**Note:** You must have [Masque][] installed to use this add-on._
+_**Note:** You must have [Masque][] installed to use these skins._
 
-### Skins ###
+## Skins
 
-This set contains the following skins:
+This set ia based on [Apathy](https://www.wowace.com/projects/masque-apathy) and includes a number of metallic skins in the following ore colors:
 
-- Adamantite
-- Bronze
-- Cobalt
-- Copper
-- Fel Iron
-- Gold
-- Iron
-- Khorium
-- Obsidium
-- Saronite
-- Silver
-- Titanium
+- **Adamantite**
+- **Bronze**
+- **Cobalt**
+- **Copper**
+- **Fel Iron**
+- **Gold**
+- **Iron**
+- **Khorium**
+- **Obsidium**
+- **Saronite**
+- **Silver**
+- **Titanium**
 
-### Installation ###
+## Installation
 
 Install the package through your preferred add-on manager. You can also install the add-on manually using the following steps:
 
 1. Download the package from one of the following sites:
-    - [Curse](https://mods.curse.com/addons/wow/masque-entropy "Download from Curse")
+    - [GitHub](https://github.com/stormfx/masque_entropy "Download from GitHub")
     - [WoW Ace](https://www.wowace.com/projects/masque-entropy "Download from WoW Ace")
-    - [WoW Interface](http://www.wowinterface.com/downloads/info8873 "Download from WoW Interface")
-2. Extract the package to your **World of Warcraft\Interface\AddOns** directory.
+    - [CurseForge](https://www.curseforge.com/wow/addons/masque-entropy "Download from CurseForge")
+    - [WoW Interface](https://www.wowinterface.com/downloads/info8873 "Download from WoW Interface")  
+2. Extract the package to your `World of Warcraft\Interface\AddOns` directory.
 
-### Links ###
+## Links
 
 - [Download Masque][Masque]
-- [Get More Skins](https://github.com/stormfx/masque/wiki/skin-list "Masque Skin List")
 - [Masque Wiki](https://github.com/stormfx/masque/wiki "Masque Wiki")
+- [Get Skins](https://github.com/stormfx/masque/wiki/skin-list "Masque Skin List")
 - [Masque Facebook Page](https://www.facebook.com/masqueui "Masque on Facebook")
 
-### Credits ###
+## Credits
 
-- [Zeal](http://www.wowace.com/profiles/zeal) for the original *Vol* skin.
+- _Zeal_ for the original _Vol_ skin.
 
-### Feedback ###
+## Feedback
 
-For bug reports and suggestions, please use the [ticket system](https://github.com/stormfx/masque_entropy/issues) on GitHub.
+For bug reports and suggestions, please use the [issue system](https://github.com/stormfx/masque_entropy/issues "Report an Issue") on GitHub.
 
-[Masque]: https://mods.curse.com/addons/wow/masque ("Download Masque")
+## Localization
+
+To help translate _Entropy_, please use the [localization system](https://www.wowace.com/projects/masque-entropy/localization "Translate on WoW Ace") on WoW Ace or [contribute directly](https://github.com/stormfx/masque_entropy "Translate on GitHub") on GitHub.
+
+[Masque]: https://www.wowace.com/projects/masque (Download Masque)
