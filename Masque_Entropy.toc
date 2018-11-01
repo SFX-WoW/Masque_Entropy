@@ -15,5 +15,8 @@
 ## X-Credits: Zeal
 ## X-WoWI-ID: 8873
 
+# Locales
+Locales.lua
+
 # Skins
 Skins.lua
