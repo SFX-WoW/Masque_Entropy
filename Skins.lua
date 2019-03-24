@@ -33,7 +33,7 @@ local Websites = {
 }
 
 -- Description
-local SKIN_DESC = L["A metallic version of Apathy in the color of %t ore."]
+local SKIN_DESC = L["A metallic version of Apathy in the color of %s ore."]
 
 ----------------------------------------
 -- Entropy - Silver
@@ -134,13 +134,13 @@ MSQ:AddSkin("Entropy - Silver", {
 		OffsetY = -2,
 	},
 	Cooldown = {
-		Width = 28,
-		Height = 28,
+		Width = 25,
+		Height = 25,
 		Color = {0, 0, 0, 0.7},
 	},
 	ChargeCooldown = {
-		Width = 28,
-		Height = 28,
+		Width = 25,
+		Height = 25,
 	},
 	Shine = {
 		Width = 26,
