@@ -8,13 +8,13 @@
 
 ]]
 
--- GLOBALS: GetLocale
+-- GLOBALS: GetLocale, setmetatable
 
 local _, Core = ...
 
 ----------------------------------------
 -- Locales
-----------------------------------------
+---
 
 local L = {}
 
