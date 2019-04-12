@@ -1,8 +1,6 @@
-## Interface: 80000
+## Interface: 80100
 ## Title: Masque: Entropy
-## Version: @project-version@
-## Author: StormFX
-## Dependencies: Masque
+
 ## Notes: Entropy skins for Masque.
 ## Notes-deDE: Entropy-Skin für Masque.
 ## Notes-esES: Skin Entropy para Masque.
@@ -10,9 +8,15 @@
 ## Notes-itIT: Skin Entropy per Masque.
 ## Notes-ruRU: Скин Entropy для Masque.
 ## Notes-zhTW: Masque的Entropy皮膚。
-## X-Website: https://www.wowace.com/projects/masque_entropy
+
+## Version: @project-version@
+## Author: StormFX
+## Dependencies: Masque
+
+## X-Website: https://github.com/StormFX/Masque_Entropy
 ## X-Category: Interface Enhancements
 ## X-Credits: Zeal
+## X-Curse-Project-ID: 13595
 ## X-WoWI-ID: 8873
 
 # Locales
