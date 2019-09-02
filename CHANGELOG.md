@@ -1,8 +1,9 @@
-## 8.1.5-Beta
+## 8.2.5-Beta
 
-_**Warning:** This version requires the latest pre-release of [Masque](https://github.com/StormFX/Masque/releases)._
+_**Warning:** This version requires the latest version of [Masque](https://github.com/StormFX/Masque/releases)._
 
 - Updated the skin info for _Masque_'s UI changes.
+- Added _Classic_ support.
 - Added a `Shadow` texture.
 - Added a `NewAction` texture.
 - Added an `AutoCastable` texture.
@@ -12,9 +13,8 @@ _**Warning:** This version requires the latest pre-release of [Masque](https://g
   - `Flash`
   - `Pushed`
 - Reduced the default intensity of the `Gloss` region.
-- Removed the "Entropy - No Shadow" skin since it's redundant.
 - Updated the `Masque_Version`.
-- Updated the ToC to 80100.
+- Updated the ToC to 80200.
 
 ### Feedback
 
