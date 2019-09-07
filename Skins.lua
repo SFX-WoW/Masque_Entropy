@@ -246,7 +246,7 @@ MSQ:AddSkin("Entropy - Silver", {
 	SlotHighlight = {
 		Texture = [[Interface\AddOns\Masque_Entropy\Textures\Border]],
 		-- TexCoords = {0, 1, 0, 1},
-		Color = {0, 0.7, 0.9, 0.7},
+		Color = {1, 1, 1, 0.3},
 		BlendMode = "ADD",
 		DrawLayer = "OVERLAY",
 		DrawLevel = 0,
