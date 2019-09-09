@@ -1,4 +1,4 @@
-## 8.2.5-Beta
+## 8.2.5
 
 _**Warning:** This version requires the latest version of [Masque](https://github.com/StormFX/Masque/releases)._
 
@@ -18,8 +18,12 @@ _**Warning:** This version requires the latest version of [Masque](https://githu
 
 ### Feedback
 
-For bug reports and suggestions, please use the [issue tracker](https://github.com/StormFX/Masque_Entropy/issues "Report an Issue") on GitHub.
+For bug reports and suggestions, please use the [issue tracker] on GitHub.
 
 ### Localization
 
-To help translate _Masque: Entropy_, please use the [localization system](https://www.wowace.com/projects/masque-entropy/localization "Translate on WoW Ace") on WoW Ace or [contribute directly](https://github.com/StormFX/Masque_Entropy "Translate on GitHub") on GitHub.
+To help translate this add-on, please use the [localization system] on WoW Ace or [contribute directly] on GitHub.
+
+[issue tracker]: https://github.com/StormFX/Masque_Entropy/issues (Report an Issue)
+[localization system]: https://www.wowace.com/projects/masque-entropy/localization (Translate on WoW Ace)
+[contribute directly]: https://github.com/StormFX/Masque_Entropy (Translate on GitHub)
