@@ -42,7 +42,7 @@ local SKIN_DESC = L["A metallic version of Apathy in the color of %s ore."]
 
 MSQ:AddSkin("Entropy - Silver", {
 	Shape = "Square",
-	Masque_Version = 80100,
+	Masque_Version = 80200,
 	Group = "Entropy",
 	Title = "Silver",
 	Order = 11,
