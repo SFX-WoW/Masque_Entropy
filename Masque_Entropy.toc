@@ -8,8 +8,8 @@
 
 ## Notes: Entropy skins for Masque.
 ## Notes-deDE: Entropy-Skin für Masque.
-## Notes-esES: Skin Entropy para Masque.
 ## Notes-esMX: Skin Entropy para Masque.
+## Notes-esES: Skin Entropy para Masque.
 ## Notes-frFR: Skins de Entropy pour Masque.
 ## Notes-itIT: Skin Entropy per Masque.
 ## Notes-ruRU: Скин Entropy для Masque.
