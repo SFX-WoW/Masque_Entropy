@@ -1,7 +1,7 @@
 --[[
 
-	This file is part of 'Masque: Entropy', an add-on for World of Warcraft. For license information,
-	please see the included License.txt file or visit https://github.com/StormFX/Masque_Entropy.
+	This file is part of 'Masque: Entropy', an add-on for World of Warcraft. For bug reports,
+	suggestions and license information, please visit https://github.com/SFX-WoW/Masque_Entropy.
 
 	* File...: Skins.lua
 	* Author.: StormFX
@@ -27,7 +27,7 @@ local L = Core.Locale
 -- Skin Info
 local Version = GetAddOnMetadata(AddOn, "Version")
 local Websites = {
-	"https://github.com/StormFX/Masque_Entropy",
+	"https://github.com/SFX-WoW/Masque_Entropy",
 	"https://www.wowace.com/projects/masque-entropy",
 	"https://www.curseforge.com/wow/addons/masque-entropy",
 	"https://www.wowinterface.com/downloads/info8873",
