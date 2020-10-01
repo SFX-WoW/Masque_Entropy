@@ -102,7 +102,7 @@ MSQ:AddSkin("Entropy - Silver", {
 		Texture = [[Interface\AddOns\Masque_Entropy\Textures\Normal]],
 		-- TexCoords = {0, 1, 0, 1},
 		-- Color = {1, 1, 1, 1},
-		-- EmptyTexture = [[Interface\AddOns\Masque_Caith\Textures\Normal]],
+		-- EmptyTexture = [[Interface\AddOns\Masque_Entropy\Textures\Normal]],
 		-- EmptyCoords = {0, 1, 0, 1},
 		-- EmptyColor = {1, 1, 1, 0.5},
 		BlendMode = "BLEND",
@@ -229,7 +229,7 @@ MSQ:AddSkin("Entropy - Silver", {
 	},
 	IconBorder = {
 		Texture = [[Interface\AddOns\Masque_Entropy\Textures\Border]],
-		-- RelicTexture = [[Interface\AddOns\Masque_Caith\Textures\Border]],
+		-- RelicTexture = [[Interface\AddOns\Masque_Entropy\Textures\Border]],
 		-- TexCoords = {0, 1, 0, 1},
 		-- Color = {1, 1, 1, 1},
 		BlendMode = "BLEND",
@@ -363,8 +363,8 @@ MSQ:AddSkin("Entropy - Silver", {
 		-- SetAllPoints = nil,
 	},
 	QuestBorder = {
-		Border = [[Interface\AddOns\Masque_Caith\Textures\Border]],
-		Texture = [[Interface\AddOns\Masque_Caith\Textures\Quest]],
+		Border = [[Interface\AddOns\Masque_Entropy\Textures\Border]],
+		Texture = [[Interface\AddOns\Masque_Entropy\Textures\Quest]],
 		Color = {1, 0.8, 0, 1},
 		BlendMode = "BLEND",
 		DrawLayer = "OVERLAY",
