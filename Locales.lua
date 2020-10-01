@@ -39,5 +39,6 @@ if Locale == "enGB" or Locale == "enUS" then
 --elseif Locale == "ptBR" then
 --elseif Locale == "ruRU" then
 --elseif Locale == "zhCN" then
---elseif Locale == "zhTW" then
+elseif Locale == "zhTW" then
+	L["A metallic version of Apathy in the color of %s ore."] = "Apathy的一種金屬版本，以%s礦石的顏色顯示。"
 end
