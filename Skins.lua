@@ -42,7 +42,7 @@ local SKIN_DESC = L["A metallic version of Apathy in the color of %s ore."]
 
 MSQ:AddSkin("Entropy - Silver", {
 	Shape = "Square",
-	Masque_Version = 80200,
+	Masque_Version = 90000,
 	Group = "Entropy",
 	Title = "Silver",
 	Order = 11,
@@ -117,7 +117,7 @@ MSQ:AddSkin("Entropy - Silver", {
 		-- UseStates = nil,
 		-- SetAllPoints = nil,
 	},
-	--Disabled = {Hide = true,},
+	-- Disabled = Default.Disabled,
 	Pushed = {
 		-- Texture = [[Interface\Buttons\UI-Quickslot-Depress]],
 		-- TexCoords = {0, 1, 0, 1},
