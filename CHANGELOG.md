@@ -1,4 +1,21 @@
-## 9.1.1
+## 9.1.2
 
-- Updated the `Interface` version for _Classic_ to `11400`.
-- Updated the `Interface` version for _BCC_ to `20502`.
+- Added support for the `IconOverlay2` (Conduit Frame) item button region.
+- Added a faded color for empty _Item_ buttons on all skins.
+- All textures have been recreated from the source at a higher resolution.
+- Lowered the level of the `JunkIcon` region.
+- Switched to Masque's default `Backdrop` textures for _Action_, _Item_ and _Pet_ buttons.
+- Updated the blend mode for the following regions:
+  - `Border`
+  - `Checked`
+  - `Enchant`
+  - `Gloss`
+  - `NewAction`
+  - `SlotHighlight`
+  - `SpellHighlight`
+- Updated the color for the following regions:
+  - `Highlight`
+  - `NewAction`
+  - `SlotHighlight`
+  - `SpellHighlight`
+- Updated the position of the `HotKey`, `Count` and `Duration` regions.
