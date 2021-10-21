@@ -10,8 +10,6 @@
 
 ]]
 
--- GLOBALS: GetAddOnMetadata, LibStub
-
 local MSQ = LibStub and LibStub("Masque", true)
 if not MSQ then return end
 
@@ -192,7 +190,18 @@ MSQ:AddSkin("Entropy - Silver", {
 		Point = "TOPRIGHT",
 		RelPoint = "TOPRIGHT",
 		OffsetX = -4,
-		OffsetY = -7,
+		OffsetY = -6.5,
+		Pet = {
+			JustifyH = "RIGHT",
+			JustifyV = "MIDDLE",
+			DrawLayer = "OVERLAY",
+			Width = 32,
+			Height = 10,
+			Point = "TOPRIGHT",
+			RelPoint = "TOPRIGHT",
+			OffsetX = -3,
+			OffsetY = -5,
+		},
 	},
 	Count = {
 		JustifyH = "RIGHT",
@@ -203,7 +212,18 @@ MSQ:AddSkin("Entropy - Silver", {
 		Point = "BOTTOMRIGHT",
 		RelPoint = "BOTTOMRIGHT",
 		OffsetX = -4,
-		OffsetY = 6,
+		OffsetY = 5.5,
+		Item = {
+			JustifyH = "RIGHT",
+			JustifyV = "MIDDLE",
+			DrawLayer = "ARTWORK",
+			Width = 32,
+			Height = 10,
+			Point = "BOTTOMRIGHT",
+			RelPoint = "BOTTOMRIGHT",
+			OffsetX = -4,
+			OffsetY = 5.5,
+		},
 	},
 	Duration = {
 		JustifyH = "CENTER",
@@ -214,7 +234,7 @@ MSQ:AddSkin("Entropy - Silver", {
 		Point = "TOP",
 		RelPoint = "BOTTOM",
 		OffsetX = 0,
-		OffsetY = -2,
+		OffsetY = -1,
 	},
 	Checked = {
 		Texture = [[Interface\AddOns\Masque_Entropy\Textures\Border]],
@@ -438,7 +458,7 @@ MSQ:AddSkin("Entropy - Silver", {
 		OffsetX = 0,
 		OffsetY = 0,
 		UseColor = true,
-		-- SetAllPoints = true,
+		-- SetAllPoints = nil,
 	},
 	ContextOverlay = {
 		-- Texture = nil,
@@ -454,14 +474,14 @@ MSQ:AddSkin("Entropy - Silver", {
 		OffsetX = 0,
 		OffsetY = 0,
 		UseColor = true,
-		-- SetAllPoints = true,
+		-- SetAllPoints = nil,
 	},
 	JunkIcon = {
 		Atlas = "bags-junkcoin",
 		-- Color = {1, 1, 1, 1},
 		BlendMode = "BLEND",
 		DrawLayer = "OVERLAY",
-		DrawLevel = 5,
+		DrawLevel = 3,
 		Width = 16,
 		Height = 16,
 		Point = "TOPLEFT",
@@ -518,13 +538,13 @@ MSQ:AddSkin("Entropy - Silver", {
 		-- SetAllPoints = nil,
 	},
 	ChargeCooldown = {
-		Width = 25,
-		Height = 25,
-		-- Point = "CENTER",
-		-- RelPoint = "CENTER",
-		-- OffsetX = 0,
-		-- OffsetY = 0,
-		SetAllPoints = true,
+		Width = 24,
+		Height = 24,
+		Point = "CENTER",
+		RelPoint = "CENTER",
+		OffsetX = 0,
+		OffsetY = 0,
+		--SetAllPoints = nil,
 	},
 })
 
