@@ -18,6 +18,7 @@
 
 ## X-Category: Interface Enhancements
 ## X-Credits: Zeal
+## X-Discord: https://discord.gg/7MTWRgDzz8
 ## X-Website: https://github.com/SFX-WoW/Masque_Entropy
 
 ## X-Curse-Project-ID: 13595
