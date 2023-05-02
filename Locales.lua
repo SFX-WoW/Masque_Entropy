@@ -42,7 +42,8 @@ if Locale == "enGB" or Locale == "enUS" then
 	--L["A metallic version of Apathy in the color of %s ore."]
 	return
 --elseif Locale == "deDE" then
---elseif Locale == "esES" or Locale == "esMX" then
+elseif Locale == "esES" or Locale == "esMX" then
+	L["A metallic version of Apathy in the color of %s ore."] = "Una versión metálica de Apathy en color %s."
 --elseif Locale == "frFR" then
 --elseif Locale == "itIT" then
 --elseif Locale == "koKR" then
