@@ -497,6 +497,10 @@ MSQ:AddSkin("Entropy - Silver", {
 		OffsetY = 0,
 		--SetAllPoints = nil,
 	},
+	SpellAlert = {
+		Width = 30,
+		Height = 30,
+	},
 })
 
 ----------------------------------------
