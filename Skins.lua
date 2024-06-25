@@ -25,7 +25,7 @@ local L = Core.Locale
 -- Locals
 ---
 
-local API_VERSION = 100105
+local API_VERSION = 100207
 
 -- Skin Info
 local Version = "@project-version@"
@@ -498,8 +498,8 @@ MSQ:AddSkin("Entropy - Silver", {
 		--SetAllPoints = nil,
 	},
 	SpellAlert = {
-		Width = 30,
-		Height = 30,
+		Width = 24,
+		Height = 24,
 	},
 })
 
