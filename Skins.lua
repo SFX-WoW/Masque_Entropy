@@ -536,8 +536,16 @@ MSQ:AddSkin("Entropy - Silver", {
 	ChargeCooldown = "Cooldown",
 	-- [ SpellAlert ]
 	SpellAlert = {
-		Width = 24,
-		Height = 24,
+		Height = 32,
+		Width = 32,
+		Classic = {
+			Height = 26,
+			Width = 26,
+		},
+		Thin = {
+			Height = 24,
+			Width = 24,
+		},
 	},
 })
 
