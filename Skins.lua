@@ -113,8 +113,6 @@ MSQ:AddSkin("Entropy - Silver", {
 		TexCoords = {0.03, 0.97, 0.03, 0.97},
 		-- Color = {1, 1, 1, 1},
 		BlendMode = "BLEND",
-		DrawLayer = "BACKGROUND",
-		DrawLevel = 0,
 		Width = 27,
 		Height = 27,
 		Point = "CENTER",
