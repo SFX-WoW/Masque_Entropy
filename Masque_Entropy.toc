@@ -4,6 +4,7 @@
 ## Title: Masque: Entropy
 ## Version: @project-version@
 
+## Category: Masque
 ## Dependencies: Masque
 ## IconTexture: Interface\AddOns\Masque_Entropy\Textures\Icon
 
