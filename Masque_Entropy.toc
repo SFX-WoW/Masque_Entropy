@@ -14,8 +14,9 @@
 ## Notes-esES: Skins Entropy para Masque.
 ## Notes-frFR: Skins de Entropy pour Masque.
 ## Notes-itIT: Skins Entropy per Masque.
+## Notes-ptBR: Aparências Entropy para o Masque.
 ## Notes-ruRU: Скин Entropy для Masque.
-## Notes-zhTW: Masque的Entropy皮膚。
+## Notes-zhTW: Masque的Entropy外觀。
 
 ## X-Category: Interface Enhancements
 ## X-Credits: Zeal
